@@ -1,2 +1,14 @@
-git remote -v
-git remote set-url origin git@github.com:USERNAME/REPONAME.git
+git remote -v # see what is the repo on github
+git remote set-url origin git@github.com:USERNAME/REPONAME.git # github does not support http push
+
+git clone ... -b <branch name> # clone at branch
+git branch
+git checkout <branch name> # switch to branch
+git branch <new-branch-name> <existing-branch-name> # create branch from a branch
+
+git add *
+git commit -m "..."
+git push
+
+git fetch
+git pull
