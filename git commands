@@ -5,6 +5,7 @@ git clone ... -b <branch name> # clone at branch
 git branch
 git checkout <branch name> # switch to branch
 git branch <new-branch-name> <existing-branch-name> # create branch from a branch
+git branch --delete <local-branch-name> # delete a local branch
 
 git add *
 git commit -m "..."
