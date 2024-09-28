@@ -13,3 +13,10 @@ git push
 
 git fetch
 git pull
+
+# forked branch sync to upstream
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPO.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+git push origin master
