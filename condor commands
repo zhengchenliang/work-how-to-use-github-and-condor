@@ -1,0 +1,9 @@
+* all = lxplus + naf
+  $ condor_status -schedd # show all condor clusters
+  $ condor_q
+  $ condor_release -all # release HOLD
+  $ condor_rm zhliang # remove
+* lxplus
+  - myscheddd tools: https://batchdocs.web.cern.ch/local/myschedd.html
+  $ myschedd set bigbird08.cern.ch # change condor cluster
+  $ myschedd show
